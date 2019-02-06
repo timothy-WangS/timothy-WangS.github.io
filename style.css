@@ -18,7 +18,8 @@ html {overflow-y: scroll;}
 /*初始化结束*/
 /*设置主体部分*/
 body{
-	background-image: url(bg.jpg);
+	background-image: url(bg3.jpg);
+	/*background-color: rgb(200,200,255);*/
 	background-attachment: fixed;
 	background-repeat: repeat-y;
 	background-position: 50% 50%;
@@ -36,7 +37,7 @@ div.title{
 	border: 0px;
 	padding: 0px;
 	text-align: left;
-	background-color: rgb(10,10,3,0.9);
+	background-color: rgb(10,10,3);
 	box-shadow: 0px 0px 10px #000;
 }
 div.title ul.goto,li.goto{
@@ -94,9 +95,9 @@ div.leftlet{
 	padding: 0px;
 	margin: 30px;
 	border-radius: 3px;
-	background-color: rgb(192,192,192,0.72);
+	background-color: rgb(240,240,200);
 	text-align: left;
-	box-shadow: 0px 0px 15px #000;
+	box-shadow: 0px 0px 15px #e5e5c8;
 }
 /*设置左侧栏标题*/
 div.leftlet ul.head{
@@ -107,10 +108,10 @@ div.leftlet ul.head{
 	border-radius: 3px;
 	text-align: left;
 	font-style: normal;
-	font-weight:lighter;
+	font-weight:normal;
 	font-family: 微软雅黑,Microsoft YaHei,SimHei,SimSun;
 	line-height: 30px;
-	background-color:rgb(0,0,0,0.62);
+	background-color:rgb(50,50,50);
 	color: white;
 }
 div.leftlet ul.head li.head1{
@@ -147,12 +148,12 @@ div.leftlet ul.letbrief{
 	padding-bottom: 40px;
 	height: 260px;
 	font:normal lighter 15px/18px 微软雅黑,Microsoft YaHei,SimHei,SimSun;
-	color: rgb(28,32,75);
+	color: rgb(15,15,15);
 }
 /*设置左侧栏联系方式*/
 div.leftlet ul.letconnect li.contitle{
 	font:normal lighter 18px/20px 微软雅黑,Microsoft YaHei,SimHei,SimSun;
-	color: rgb(38,42,85);
+	color: rgb(15,15,15);
 }
 div.leftlet ul.letconnect{
 	margin: 20px;
@@ -178,7 +179,7 @@ div.homebody ul.bodypart{
 	margin-bottom: 250px;
 	margin-left: 10px;
 	border-radius: 3px;
-	background-color: rgb(200,200,200,0);
+	background-color: rgb(200,200,200，0);
 	text-align: center;	
 }
 div.homebody ul.bodypart ul.bodycontainer{
@@ -189,48 +190,55 @@ div.homebody ul.bodypart ul.bodycontainer{
 	padding: 15px;
 	margin-bottom: 31px;
 	border-radius: 5px;
-	background-color: rgb(200,200,200,0.62);
-	box-shadow:  0px 0px 8px #000;
+	background-color: rgb(210,210,240,0);
+	box-shadow:  0px 0px 8px #505050;
 	transition: box-shadow 0.16s;
 }
 div.homebody ul.bodypart ul.bodycontainer:hover{
 
-	box-shadow:  0px 0px 45px #000;
+	box-shadow:  0px 0px 40px #505050;
 }
 div.homebody ul.bodypart ul.bodycontainer li.contthead{
 	display: inline-block;
 	height: 43px;
-	margin-top: 28px;
+	margin-top: 0px;
 	padding: 3px;
 	border-radius: 4px;
-	background-color: rgb(27,163,187);
+	background-color: rgb(47,183,207);
 	text-align: center;
-	font:normal lighter 30px/45px 微软雅黑,Microsoft YaHei,SimHei,SimSun;
+	font:normal normal 30px/45px 微软雅黑,Microsoft YaHei,SimHei,SimSun;
+	box-shadow:  0px 0px 1px #505050;
 	color: rgb(227,228,227);
 }
 div.homebody ul.bodypart ul.bodycontainer li.conttlink1{
 	display: inline-block;
 	height: 20px;
 	line-height: 20px;
-	margin-right: 8px;
-	margin-top: 23px;
+	margin-right: 5px;
+	margin-top: 10px;
 	padding: 5px;
 	border-radius: 3px;
 	background-color: rgb(64,66,58);
 	text-align: center;
 	font:normal lighter 13px/20px 微软雅黑,Microsoft YaHei,SimHei,SimSun;
 	color: rgb(255,255,255);
+	box-shadow:  0px 0px 2px #000;
+	transition: background-color 0.22s;
+}
+div.homebody ul.bodypart ul.bodycontainer li.conttlink1:hover{
+	background-color: rgb(132,153,44);
 }
 div.homebody ul.bodypart ul.bodycontainer li.conttlink2{
 	display: inline-block;
 	height: 20px;
 	line-height: 20px;
 	margin-right: 8px;
-	margin-top: 23px;
+	margin-top: 10px;
 	border-radius: 3px;
 	background-color: rgb(64,66,58);
 	text-align: center;
 	font:normal lighter 13px/20px 微软雅黑,Microsoft YaHei,SimHei,SimSun;
+	box-shadow:  0px 0px 2px #000;
 	color: rgb(255,255,255);
 }
 div.homebody ul.bodypart ul.bodycontainer li.conttlink2 a{
@@ -253,17 +261,17 @@ div.homebody ul.bodypart ul.bodycontainer li.bdcontent{
 	display: inline-block;
 	padding: 18px;
 	border-radius: 5px;
-	margin-top: 21px;
-	background-color: rgb(48,48,48,0.62);
-	box-shadow:  0px 0px 10px #000;
-	font:normal bold 18px/26px 华文仿宋,FangSong,微软雅黑,Microsoft YaHei,SimHei,SimSun,宋体;
+	margin-top: 15px;
+	background-color: rgb(160,180,255);
+	box-shadow:  0px 0px 10px #aabef5;
+	font:normal normal 14px/20px 微软雅黑,Microsoft YaHei,SimHei,SimSun,华文仿宋,FangSong,宋体;
 	text-align: left;
 	text-indent: 2em;
-	color: rgb(212,212,212);
+	color: rgb(0,0,0);
 	transition: box-shadow 0.17s;
 }
 div.homebody ul.bodypart ul.bodycontainer li.bdcontent:hover{
-	box-shadow:  0px 0px 25px #000;
+	box-shadow:  0px 0px 25px #aabef5;
 }
 /*正文部分设置结束*/
 /*设置快速回顶标签*/
