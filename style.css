@@ -264,6 +264,7 @@ div.homebody ul.bodypart ul.bodycontainer li.bdcontent{
 	border-radius: 5px;
 	margin-top: 15px;
 	background-color: rgb(160,180,255);
+	/*background-color: rgb(255,255,255);*/
 	box-shadow:  0px 0px 10px #aabef5;
 	font:normal normal 14px/20px 微软雅黑,Microsoft YaHei,SimHei,SimSun,华文仿宋,FangSong,宋体;
 	text-align: left;
