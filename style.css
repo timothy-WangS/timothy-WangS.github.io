@@ -95,7 +95,7 @@ div.leftlet{
 	padding: 0px;
 	margin: 30px;
 	border-radius: 3px;
-	background-color: rgb(240,240,200);
+	background-color: rgb(220,190,120);
 	text-align: left;
 	box-shadow: 0px 0px 15px #e5e5c8;
 }
@@ -226,7 +226,7 @@ div.homebody ul.bodypart ul.bodycontainer li.conttlink1{
 	transition: background-color 0.22s;
 }
 div.homebody ul.bodypart ul.bodycontainer li.conttlink1:hover{
-	background-color: rgb(132,153,44);
+	background-color: rgb(180,100,100);
 }
 div.homebody ul.bodypart ul.bodycontainer li.conttlink2{
 	display: inline-block;
@@ -255,7 +255,8 @@ div.homebody ul.bodypart ul.bodycontainer li.conttlink2 a{
 }
 div.homebody ul.bodypart ul.bodycontainer li.conttlink2 a:hover{
 	text-decoration: none;
-	background-color: rgb(132,153,44);
+	/*background-color: rgb(132,153,44);*/
+	background-color: rgb(180,100,100);
 }
 div.homebody ul.bodypart ul.bodycontainer li.bdcontent{
 	display: inline-block;
