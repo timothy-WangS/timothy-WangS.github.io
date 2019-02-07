@@ -18,7 +18,7 @@ html {overflow-y: scroll;}
 /*初始化结束*/
 /*设置主体部分*/
 body{
-	background-image: url(bg3.jpg);
+	background-image: url(bg.jpg);
 	/*background-color: rgb(200,200,255);*/
 	background-attachment: fixed;
 	background-repeat: repeat-y;
