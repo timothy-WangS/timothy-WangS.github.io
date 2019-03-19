@@ -770,6 +770,16 @@ ul.short_ls li {
     background: url(../images/bb2.jpg)no-repeat 0px 0px;
 }
 
+.busness-tip-three {
+    background: url(../images/bb3.jpg)no-repeat 0px 0px;
+}
+
+.busness-tip-four {
+    background: url(../images/bb4.jpg)no-repeat 0px 0px;
+}
+
+.busness-tip-four,
+.busness-tip-three,
 .busness-tip-two,
 .busness-tip-one {
     background-size: cover;
@@ -1101,6 +1111,12 @@ a.move-top {
     width: 40px;
 }
 
+.tip_img{
+    width: 100%;
+
+    display: block;
+}
+
 /* --//footer-- */
 
 /*--responsive--*/
@@ -1354,6 +1370,8 @@ a.move-top {
     button.btn1 {
         padding: 6px 0;
     }
+    .busness-tip-four,
+    .busness-tip-three,
     .busness-tip-two,
     .busness-tip-one {
         min-height: 205px;
