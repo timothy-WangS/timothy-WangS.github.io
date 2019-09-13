@@ -21,7 +21,7 @@ body{
 	background-image: url(bg.jpg);
 	/*background-color: rgb(200,200,255);*/
 	background-attachment: fixed;
-	background-repeat: repeat-y;
+	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;
 }
