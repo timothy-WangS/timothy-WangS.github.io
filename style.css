@@ -23,7 +23,7 @@ body{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-size: cover;
+	background-size: 100% 100%;
 }
 
 /*主体内容设置结束*/
