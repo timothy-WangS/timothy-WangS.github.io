@@ -43,7 +43,6 @@ div.title{
 	box-shadow: 0px 0px 10px #000;
 }
 div.title ul.goto,li.goto{
-	
 	display: inline-block;
 }
 /*设置左侧修饰块*/
@@ -86,16 +85,17 @@ div.title li.goto a:hover{
 }
 div.title li.lgcg{
 	display: inline-block;
-	float: right;
 	height: 41px;
 	padding: 0px 18px;
 	font-size: 12px;
 	text-align: center;
-	color: #eee;
 	font-style: normal;
 	font-weight:lighter;
 	font-family: 微软雅黑,Microsoft YaHei,SimHei,SimSun;
 	line-height: 41px;
+}
+div.title li.lgcg a{
+	color: #ccc;
 }
 /*题头设置结束*/
 /*设置左侧栏*/
