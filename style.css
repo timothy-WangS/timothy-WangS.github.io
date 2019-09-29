@@ -84,6 +84,19 @@ div.title li.goto a:hover{
 	background-color: rgb(121,54,181);
 	color: #fff;
 }
+div.title li.lgcg{
+	display: inline-block;
+	float: right;
+	height: 41px;
+	padding: 0px 18px;
+	font-size: 12px;
+	text-align: center;
+	color: #ccc;
+	font-style: normal;
+	font-weight:lighter;
+	font-family: 微软雅黑,Microsoft YaHei,SimHei,SimSun;
+	line-height: 41px;
+}
 /*题头设置结束*/
 /*设置左侧栏*/
 div.leftlet{

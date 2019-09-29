@@ -15,10 +15,9 @@
     	if(navigator.appName!="Netscape"){
     		alert("建议使用Netscape内核打开，否则部分内容可能无法正常显示\r\nStrongly suppose you using Netscape kernel, \r\notherwise this webpage might be resolved wrongly!") ;
     	}
-    	
-    	
-
     </script>
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="language.js"></script>
 </head>
 <body>
 	<div id="top"></div>
@@ -31,6 +30,7 @@
 				<li class="goto"><a href="https://timothy-wangs.github.io/paper.html">论文</a></li>
 				<li class="goto"><a href="https://timothy-wangs.github.io/honor.html">荣誉</a></li>
 				<li class="goto" style="background-color: rgb(121,54,181);"><a href="https://timothy-wangs.github.io/code.html">程序</a></li>
+				<li class="lgcg"><div id="change"> 语言切换 </div></li>
 			</ul>
 		</div>
 	</div>
@@ -159,5 +159,11 @@
 	</div>
 
 </body>
+
+<script type="text/javascript">
+    $("#change").click(function(){
+        translate();
+    })
+</script>
 
 </html>
